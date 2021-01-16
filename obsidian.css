@@ -1,0 +1,132 @@
+:root
+
+/* normal text other than headings and code */
+.cm-s-obsidian
+{
+  font-size: 20px;
+}
+{
+    --font-size-normal:              50px;
+    --font-size-code:                40px;
+    --font-size-side-dock:           30px;
+    --font-size-side-dock-title:     30px;
+    --font-size-status-bar:          10px;
+    --font-size-h1:                  60px;
+    --font-size-h2:                  50px;
+    --font-size-h3:                  40px;
+    --font-size-h4:                  35px;
+    --font-size-h5:                  30px;
+    --font-size-h6:                  25px;
+} 
+
+
+/* normal text outside of headings and code of editor */
+.cm-s-obsidian, .mod-single-child .cm-s-obsidian {
+  font-size: var(--font-size-normal);
+}
+
+/* normal text outside of headings and code of preview */
+.markdown-preview-view, .mod-single-child .markdown-preview-view {
+  font-size: var(--font-size-normal);
+}
+
+/*preview padding too small*/
+.theme-light .markdown-preview-view, .theme-light .mod-single-child .markdown-preview-view {
+  font-size: var(--font-size-normal);
+}
+
+/* code blocks in preview */
+pre code {
+  font-size: var(--font-size-code) !important;
+}
+
+/* font-size of in-line block for preview */
+.markdown-preview-view code
+{
+  font-size: var(--font-size-code);
+}
+
+/* Editor CodeBlock TEXT Appearance */
+.cm-s-obsidian pre.HyperMD-codeblock {
+  font-size: var(--font-size-code) !important;
+}
+
+.search-result-file-matches, .search-empty-state {
+  font-size: var(--font-size-side-dock);
+}
+
+.workspace-leaf-content[data-type="tag"] .tag-pane-tag-count,
+.workspace-leaf-content[data-type="tag"] .tag-pane-tag-text {  
+  font-size: var(--font-size-side-dock);
+}
+
+.workspace-leaf-content[data-type="backlink"] .search-result-file-matches {
+  font-size: var(--font-size-side-dock);
+}
+
+/* search result in backlink or file search */
+.search-result-file-title {  
+  font-size: var(--font-size-side-dock-title) ;
+}
+
+/*status-bar*/
+.status-bar{
+  font-size: var(--font-size-status-bar);
+}
+
+/* headings for editor and preview */
+.cm-header-1, .markdown-preview-view h1
+{
+  font-size: var(--font-size-h1);
+}
+
+.cm-header-2, .markdown-preview-view h2
+{
+  font-size: var(--font-size-h2);
+}
+
+.cm-header-3, .markdown-preview-view h3
+{
+  font-size: var(--font-size-h3);
+}
+
+.cm-header-4, .markdown-preview-view h4
+{
+  font-size: var(--font-size-h4);
+}
+
+.cm-header-5, .markdown-preview-view h5
+{
+  font-size: var(--font-size-h5);
+}
+
+.cm-header-6, .markdown-preview-view h6
+{
+  font-size: var(--font-size-h6);
+}
+
+.theme-dark {
+	--gradient01: #d32473;
+	--gradient02: #be4698;
+	--gradient03: #9a6dc4;
+	--gradient04: #7c9ed1;
+	--gradient05: #61c7f3;
+	--gradient06: #85e9ff;
+}
+
+
+.theme-light {
+	--gradient01: #991651;
+	--gradient02: #9B4981;
+	--gradient03: #896FA1;
+	--gradient04: #7694C0;
+	--gradient05: #64BAE0;
+	--gradient06: #41aec7;
+}
+
+.cm-header-1, .markdown-preview-view h1 {color: var(--gradient01);}
+.cm-header-2, .markdown-preview-view h2 {color: var(--gradient02);}
+.cm-header-3, .markdown-preview-view h3 {color: var(--gradient03);}
+.cm-header-4, .markdown-preview-view h4 {color: var(--gradient04);}
+.cm-header-5, .markdown-preview-view h5 {color: var(--gradient05);}
+.cm-header-6, .markdown-preview-view h6 {color: var(--gradient06);}

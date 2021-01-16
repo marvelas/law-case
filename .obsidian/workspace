@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "dacd35cf67bd0a23",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7054ba84f47bd1f",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "法律/民法典.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5913787775866b00",
+    "type": "split",
+    "children": [
+      {
+        "id": "c42b0ed11bb9f0bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "044139f1364d407c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#刑事",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b16cf98a8f9b1f8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45356bba57f3a2de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "630adbad00c8f1f3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324.50000190734863
+  },
+  "right": {
+    "id": "a9eaf61b9d103e41",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0f4c73a08a2d679",
+        "type": "tabs",
+        "dimension": 39.17396745932416,
+        "children": [
+          {
+            "id": "9226c943904506db",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "47b2007024f886a9",
+        "type": "tabs",
+        "dimension": 60.82603254067583,
+        "children": [
+          {
+            "id": "e0bf0a2155303bbb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "法律/民法典.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5ca923d83abb7aaf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "1cca7d4e7b7c3ebc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "法律/民法典.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.672607421875
+  },
+  "lastOpenFiles": [
+    "指导案例/Untitled.md",
+    "司法解释/Untitled.md",
+    "司法解释/最高人民法院关于适用《中华人民共和国民法典》有关担保制度的解释.md",
+    "Untitled.md",
+    "146号 陈庆豪、陈淑娟、赵延海开设赌场案.md",
+    "司法解释/最高院.md",
+    "147号 张永明、毛伟明、张鹭故意损毁名胜古迹案.md",
+    "法律/刑法.md",
+    "法律/最高人民法院最高人民检察院关于办理妨害文物管理等刑事案件适用法律若干问题的解释.md",
+    "最高人民法院最高人民检察院关于办理妨害文物管理等刑事案件适用法律若干问题的解释.md"
+  ]
+}
